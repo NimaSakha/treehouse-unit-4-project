@@ -1,0 +1,18 @@
+@import '../utilities/index';
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-bottom: 5px solid $secondary-color;
+}
+
+
+
+.form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+}

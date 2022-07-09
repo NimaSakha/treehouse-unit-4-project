@@ -1,7 +1,33 @@
 @import '../utilities/index';
 
 a {
-    color: $text-color;
+    color: $default;
     text-decoration: none;
-    margin: 30px;
+}
+
+h1 {
+    color: $secondary-color;
+}
+
+h4 {
+    font-weight: 300;
+}
+
+* {
+    color: $text-color;
+}
+
+p {
+    line-height: 1.45em;
+}
+
+.blockquote {
+    margin: 20px;
+    padding: 10px;
+    font-weight: 300px;
+    font-size: 1.5em;
+    font-style: italic;
+    border-left: 8px solid $secondary-color;
+    border-radius: 5px;
+
 }

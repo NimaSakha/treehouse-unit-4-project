@@ -1,0 +1,31 @@
+@import '../utilities/index';
+
+.btn {
+    width: 375px;
+    padding: 10px 30px;
+    margin-top: 15px;
+    border: none;
+    color: white;
+    background-color: $default;
+    border-radius: 5px;
+}
+
+.default {
+    background-color: $default;
+}
+
+.success {
+    background-color: $success;
+}
+
+.error {
+    background-color: $error;
+}
+
+.warning {
+    background-color: $warning;
+}
+
+.info {
+    background-color: $info;
+}

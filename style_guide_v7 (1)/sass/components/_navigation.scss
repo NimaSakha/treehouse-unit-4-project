@@ -1,5 +1,13 @@
+@import '../utilities/variables';
+
 .nav {
     margin: 10px;
+}
+
+.nav a {
+    color: $text-color;
+    text-decoration: none;
+    margin: 20px;
 }
 
 .row {
