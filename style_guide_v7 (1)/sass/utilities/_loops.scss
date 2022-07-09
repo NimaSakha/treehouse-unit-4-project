@@ -1,0 +1,5 @@
+@for $i from 1 through 12 {
+    .theme.col-#{$i} {
+        background-color: adjust-hue(#927bc1, $i * 20);
+    }
+}
