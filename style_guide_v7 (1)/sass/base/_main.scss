@@ -10,6 +10,7 @@ body {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
 
 }
@@ -22,6 +23,24 @@ body {
     margin: 10px;
 }
 
-@media (min-width: $tablet) {
-    display: flex;
+
+
+@media (max-width: $tablet) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+
+        &-li {
+            margin-top: 100px;
+            width: 100%;
+        }
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+    }
 }
