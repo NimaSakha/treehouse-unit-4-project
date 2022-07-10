@@ -1,5 +1,0 @@
-@for $i from 3 through 12 {
-    .theme.col-#{$i} {
-        background-color: adjust-hue(darken(#deb2ee, 15%), $i * 20);
-    }
-}

@@ -1,8 +1,9 @@
-@mixin button {
+@mixin button($color: $default) {
     width: 19%;
     margin: 5px;
 
     &:hover {
-        background-color: lighten($default, 10%);
+        background-color: lighten($color, 15%);
     }
+
 }

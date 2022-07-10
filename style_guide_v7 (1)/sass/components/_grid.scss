@@ -1,3 +1,5 @@
+@import '../utilities/index';
+
 .theme {
     height: 18px;
     padding: 10px;
@@ -7,30 +9,58 @@
 
 .col-12 {
     flex-basis: 100%;
+
+    &.theme {
+        background-color: $col-12;
+    }
 }
 
 .col-6 {
     flex-basis: 50%;
+
+    &.theme {
+        background-color: $col-6;
+    }
 }
 
 .col-4 {
     flex-basis: 33.33%;
+
+    &.theme {
+        background-color: $col-4;
+    }
 }
 
 .col-3 {
     flex-basis: 25%;
+
+    &.theme {
+        background-color: $col-3;
+    }
 }
 
 .col-5 {
     flex-basis: 42%;
+
+    &.theme {
+        background-color: $col-5;
+    }
 }
 
 .col-7 {
     flex-basis: 58%;
+
+    &.theme {
+        background-color: $col-7;
+    }
 }
 
 .col-8 {
     flex-basis: 67%;
+
+    &.theme {
+        background-color: $col-8;
+    }
 }
 
 .centered {

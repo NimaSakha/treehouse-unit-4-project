@@ -1,5 +1,6 @@
 @import '../utilities/index';
 
+
 .btn {
     width: 375px;
     padding: 10px 30px;
@@ -14,30 +15,25 @@
 
 .default {
     background-color: $default;
-
-    @include button
+    @include button;
 }
 
 .success {
     background-color: $success;
-
-    @include button
+    @include button($success);
 }
 
 .error {
     background-color: $error;
-
-    @include button
+    @include button($error);
 }
 
 .warning {
     background-color: $warning;
-
-    @include button
+    @include button($warning);
 }
 
 .info {
     background-color: $info;
-
-    @include button
+    @include button($info);
 }
