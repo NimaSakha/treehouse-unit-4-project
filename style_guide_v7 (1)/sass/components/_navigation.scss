@@ -2,13 +2,15 @@
 
 .nav {
     margin: 10px;
+
+    & a {
+        color: $text-color;
+        text-decoration: none;
+        margin: 20px;
+    }
 }
 
-.nav a {
-    color: $text-color;
-    text-decoration: none;
-    margin: 20px;
-}
+
 
 .row {
     display: flex;
